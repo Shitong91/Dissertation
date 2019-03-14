@@ -1,0 +1,64 @@
+这篇文章的主要内容
+
+1. 获取环境信息的传感器
+
+第一部分列举出了当前获取环境信息的所有传感器，涉及颜色相机，一般相机，激光雷达，红外相机，热相机等
+
+
+2. data set
+
+讲述了当前相关的data set，没有具体的去看，等以后用的时候再看。
+
+
+3. 介绍了三种data structure
+
+3.1 k-d tree
+
+3.2 Octree
+
+3.3 Panorama images
+
+
+4. Plane detection
+
+Manmade structures consist in large parts of planar regions.
+
+The structure of indoor environments usually comprises a large amount of planar surfaces.
+
+平面检测的方法
+
+4.1 Plane description
+
+4.2 Region growing
+
+4.3 RANSAC
+
+4.4 The 3D Hough Transform
+
+
+
+5. Laser-based 2D mapping methods
+
+5.1 Three laser-based 2D mapping methods
+
+5.1.1 GMapping
+
+using odometry infomation
+
+5.1.2 Hector SLAM
+
+using odometry information or inertial measurement。
+
+5.1.3 TSD-SLAM
+
+works completely without odometry.
+
+5.2 Occupancy grid maps
+
+All the above 3 mapping methods use occupancy grid maps for map representation.
+
+考古挖掘：应该就是重建出遗址的场景。
+
+4.placement planning for navigation
+
+重点关注1 和2这两个部分。

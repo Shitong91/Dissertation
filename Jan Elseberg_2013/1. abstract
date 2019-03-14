@@ -1,18 +1,26 @@
 这篇文章的主要内容
 
-1. point cloud registration
+1. Globally Consistent 3D Mapping with Scan Matching
 
-本文的配准方法主要思路是把3D point cloud 转化成panorama images 然后利用image processing methods 来
-处理3D point cloud。
+这部分主要针对的是TLS 采集方式，也就是scan是在静止的状态下获得的。
 
-2. point cloud reduction and compression
 
-这里的压缩方法主要是基于图像的方法，也就是说先把3D point cloud 转化为panorama images，然后压缩
+2. 关于ICP方法最小化函数来求relative pose的解法的谈论
 
-3. appication for archeological excavations
+Study of Parameterizations for the Rigid Body Transformations of the Scan Registration Problem 
 
-考古挖掘：应该就是重建出遗址的场景。
+3. Octree for point cloud processing and store
 
-4.placement planning for navigation
+An Octree for Efficient Processing of 3D Laser Scans
 
-重点关注1 和2这两个部分。
+4.  Comparison of Nearest-Neighbor-Search Strategies and Implementations for Efficient Shape Registration
+
+5. 介绍了Irma3D机器人平台
+
+6.  介绍了一种calibration 方法和continious-time SLAM
+
+
+1 ，2 ，3 和 6这四篇文章之前都深入的了解过，这也是当前6DSLAM的基本理论。不过，6中的calibration方法没有怎么研究。
+文献4不知道是干什么的，暂时没看。
+
+
