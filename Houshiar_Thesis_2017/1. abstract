@@ -1,0 +1,18 @@
+这篇文章的主要内容
+
+1. point cloud registration
+
+本文的配准方法主要思路是把3D point cloud 转化成panorama images 然后利用image processing methods 来
+处理3D point cloud。
+
+2. point cloud reduction and compression
+
+这里的压缩方法主要是基于图像的方法，也就是说先把3D point cloud 转化为panorama images，然后压缩
+
+3. appication for archeological excavations
+
+考古挖掘：应该就是重建出遗址的场景。
+
+4.placement planning for navigation
+
+重点关注1 和2这两个部分。
