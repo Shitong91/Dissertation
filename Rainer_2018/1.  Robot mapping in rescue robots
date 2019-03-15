@@ -1,0 +1,17 @@
+Almost once a week broadcasts about earthquakes, hurricanes, tsunamis, or forest fires are
+filling the news. While oneself feels it is hard to watch such news, it is even harder for rescue
+troops to enter these areas. They need some skills to get a quick overview of the devastated
+area and find victims. Time is ticking, since the chance for survival shrinks the longer it takes
+till help is available. To coordinate the teams efficiently, all information needs to be collected
+at the command center. Therefore, teams investigate the destroyed houses and hollow spaces
+for victims. Doing so, they never can be sure that the building will not fully collapse while they
+are inside. Here, rescue robots are welcome helpers, as they are replaceable and make work
+more secure. Unfortunately, rescue robots are not usable off-the-shelf, yet.
+There is no doubt, that such a robot has to fulfil essential requirements to successfully
+accomplish a rescue mission. Apart from the mechanical requirements it has to be able to build
+a 3D map of the environment. This is essential to navigate through rough terrain and fulfil
+manipulation tasks (e.g. open doors). To build a map and gather environmental information,
+robots are equipped with multiple sensors. Since laser scanners produce precise measurements
+and support a wide scanning range, they are common visual sensors utilized for mapping.
+
+以后写论文可以用

@@ -1,0 +1,36 @@
+这篇文章的主要内容
+
+1. 主要解决的问题
+
+Sensor Fusion for Presice Mapping of Transparent and Specular Reflective Objects
+
+这篇文章主要针对的是透明物体(transparent) 和镜面反射(specular reflective)物体的构图问题
+
+2. 研究透明物体和镜面反射物体的motivation
+
+Unfortunately, they produce erroneous measurements when scanning transparent (e.g. glass,
+transparent plastic) or specular reflective objects (e.g. mirror, shiny metal). It is understood
+that such objects can be everywhere and a pre-manipulation to prevent their influences is
+impossible. Using additional sensors also bear risks.
+
+如果不管这些物体的存在，当前的相机和激光扫描仪扫描到这些物体会产生很大的量测误差。
+
+激光扫描仪的原理是碰到objects然后反射回来，基于此，我们分析一下这几种物体的反映
+2.1 transparent objects
+比如说透明物体，windows，透明塑料，激光打出去，之间穿过了透明物体，没有反射回来，这样激光扫描仪就认为
+前面没有东西，其实是个透明物体。 而且会扫描到透明物体背后的物体，这样传感器压根不认为有镜子的存在
+。
+
+2.2 specular reflective objects
+
+比如说镜子和发光金属，会反射。也就是说，激光打出去以后反射回来，光线的回射角度被改变了。这样就很难判断
+镜子的正确位置。而且被镜子反射的激光又会打到镜子前面或周围的物体上，这样造成的错误就更大了。
+
+
+
+3. 研究移动机器人的motivation
+
+这篇论文中讲了很多研究机器人构图和导航的动机，以后写论文时候可以用上。
+
+
+

@@ -57,8 +57,6 @@ works completely without odometry.
 
 All the above 3 mapping methods use occupancy grid maps for map representation.
 
-考古挖掘：应该就是重建出遗址的场景。
+6. Path planning
 
-4.placement planning for navigation
-
-重点关注1 和2这两个部分。
+这一部分没看。
