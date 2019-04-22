@@ -1,0 +1,20 @@
+本论文的核心内容是通过machine learning 来处理3D point cloud问题
+
+1. 提出了一种逐点的语义分类方法，也就是说每个点都分配一个语义标签。
+
+advantage: 
+1)处理large-scale point cloud 
+2)处理inhomogeneous and unstructured point cloud
+即非均匀和非结构点云
+
+Method
+1)traditional machine learning 
+主要是通过有效的计算neighborhood去获取丰富的multi-scale feature set
+
+2. 利用traditional point cloud 进行3D contour extraction
+
+3. 提出了一个Benchmake
+
+目的是用来point cloud classification
+
+
