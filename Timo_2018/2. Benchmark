@@ -1,0 +1,12 @@
+1. What is benchmark?
+
+Traditionally, in computer vision, the performance of algorithms on tasks is measured with benchmark tests. These
+tests evaluate approaches in a qualitatively comparable manner.
+
+也就是说benchmark 提供了一种可以把不同的方法放在一起评估性能的一套基准，主要用来评估
+
+2. What is baseline？
+
+Baseline就是解决某类问题的一种方法，如果再开发出解决同样问题的其它方法，这些方法就可以拿来和这个baseline进行比较，如果新开发的方法比这个baseline好，那么新开发的方法就是好的。
+
+举个例子来说，我融合的3D 地图和用原来pure hectorslam产生的3D 地图进行比较，这里 HectorSlam得到的3D 地图就是baseline

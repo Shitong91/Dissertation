@@ -1,0 +1,12 @@
+1.Data processing in 3D space is more challenging than 2D image processing.
+
+the reason is as follows:
+
+1.1 3D data has one more dimension than 2D data and, hence, has a larger memory footprint.
+
+1.2 The neighborhood in 3D space is more complex than an 8-neighborhood in 2D images.
+
+2. Why is the deep learning extremely challenging in 3D space?
+
+Beacuse deep learning not only needs large datasets for training but is already resource hungry in 2D space.
+
