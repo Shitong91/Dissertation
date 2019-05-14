@@ -1,0 +1,18 @@
+论文在P35 有很清除的论述对supervised classification
+
+这里在test的时候，提到了K-fold cross-validation
+
+1. Traditional machine learning
+
+传统的学习方法，输入不是raw data而是先要提取特征即所谓的hand-crafted features
+
+X=g(x_data)
+
+其中x_data是raw data， g() map x_data into feature space 
+
+
+2. neural network
+
+输入直接就是最raw的数据
+
+也就是X=x_data

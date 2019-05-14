@@ -1,0 +1,12 @@
+
+邻域搜索一般有两种方法
+
+1. radius search
+
+advantage: 固定的radius 可以保证same volume
+disadvantage: dense point cloud, 计算量太大
+              如果点云的密度很不均匀，固定的radius在稀疏的地方可能找不到一个neighborhood
+
+2. k nearest neighbours
+
+只要设定k，不管spare or dense，都要招待K个点
