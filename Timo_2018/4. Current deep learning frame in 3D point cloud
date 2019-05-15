@@ -1,0 +1,11 @@
+The data processing of typical convolutional neural networks (CNN) in 3D space is limited to voxel grids with small resolutions to avoid large memory footprints due to their cubic memory growth.
+
+也就是说，使用voxel grids 在3D point cloud 去开展深度学习。
+
+理论基础是：
+
+The line-of-sight measurements of typical 3D point clouds are sparse when represented as voxel grids.
+
+也就是说我们可以从数据sparse方面来减轻3D point cloud处理的负担。
+
+
